@@ -31,7 +31,7 @@ is its reciprocal.
 Requires Math_Integer, and can be used with big integers if the GMP or
 the BCMATH libraries are present.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ci±g Fibonacciego jest skonstruowany wed³ug wzoru:
