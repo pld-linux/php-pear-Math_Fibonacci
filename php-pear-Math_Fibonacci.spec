@@ -37,7 +37,7 @@ In PEAR status of this package is: %{_status}.
 Ci±g Fibonacciego jest skonstruowany wed³ug wzoru:
 F(n) = F(n - 1) + F(n - 2).
 Z za³o¿enia F(0) = 0 oraz F(1) = 1.
-Mo¿na ró¿nie¿ u¿yæ alternatywnego wzoru, wykorzystuj±cego wspó³czynnik
+Mo¿na równie¿ u¿yæ alternatywnego wzoru, wykorzystuj±cego wspó³czynnik
 z³otego podzia³u:
 F(n) = (PHI^n - phi^n)/sqrt(5)  [wzór Lucasa]
 gdzie PHI = (1 + sqrt(5))/2 jest wspó³czynnikiem z³otego podzia³u, a
