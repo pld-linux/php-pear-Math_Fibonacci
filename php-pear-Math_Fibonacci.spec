@@ -8,7 +8,7 @@ Summary:	%{_class}_%{_subclass} - Package to calculat and manipulate Fibonacci n
 Summary(pl):	%{_class}_%{_subclass} - pakiet do obliczania i manipulowania na liczbach Fibonacciego
 Name:		php-pear-%{_pearname}
 Version:	0.8
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	924091a540df8d7fe2a7f37996223fa8
