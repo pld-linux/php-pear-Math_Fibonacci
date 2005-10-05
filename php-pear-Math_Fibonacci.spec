@@ -2,13 +2,13 @@
 %define		_class		Math
 %define		_subclass	Fibonacci
 %define		_status		stable
-
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_class}_%{_subclass} - Package to calculat and manipulate Fibonacci numbers
 Summary(pl):	%{_class}_%{_subclass} - pakiet do obliczania i manipulowania na liczbach Fibonacciego
 Name:		php-pear-%{_pearname}
 Version:	0.8
-Release:	2.2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	924091a540df8d7fe2a7f37996223fa8
