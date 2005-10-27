@@ -9,6 +9,7 @@ Summary(pl):	%{_class}_%{_subclass} - pakiet do obliczania i manipulowania na li
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	3
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	924091a540df8d7fe2a7f37996223fa8
