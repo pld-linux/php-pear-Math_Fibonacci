@@ -15,6 +15,7 @@ Group:		Development/Languages/PHP
 # Source0-md5:	924091a540df8d7fe2a7f37996223fa8
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Math_Fibonacci/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-Math_Integer
