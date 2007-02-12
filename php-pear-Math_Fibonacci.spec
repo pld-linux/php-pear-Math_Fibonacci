@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_class}_%{_subclass} - Package to calculat and manipulate Fibonacci numbers
-Summary(pl):	%{_class}_%{_subclass} - pakiet do obliczania i manipulowania na liczbach Fibonacciego
+Summary(pl.UTF-8):   %{_class}_%{_subclass} - pakiet do obliczania i manipulowania na liczbach Fibonacciego
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	4
@@ -37,24 +37,24 @@ the BCMATH libraries are present.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ci±g Fibonacciego jest skonstruowany wed≥ug wzoru:
+%description -l pl.UTF-8
+CiƒÖg Fibonacciego jest skonstruowany wed≈Çug wzoru:
 F(n) = F(n - 1) + F(n - 2).
-Z za≥oøenia F(0) = 0 oraz F(1) = 1.
-Moøna rÛwnieø uøyÊ alternatywnego wzoru, wykorzystuj±cego wspÛ≥czynnik
-z≥otego podzia≥u:
-F(n) = (PHI^n - phi^n)/sqrt(5)  [wzÛr Lucasa]
-gdzie PHI = (1 + sqrt(5))/2 jest wspÛ≥czynnikiem z≥otego podzia≥u, a
-phi = (1 - sqrt(5))/2 jego odwrotno∂ci±.
+Z za≈Ço≈ºenia F(0) = 0 oraz F(1) = 1.
+Mo≈ºna r√≥wnie≈º u≈ºyƒá alternatywnego wzoru, wykorzystujƒÖcego wsp√≥≈Çczynnik
+z≈Çotego podzia≈Çu:
+F(n) = (PHI^n - phi^n)/sqrt(5)  [wz√≥r Lucasa]
+gdzie PHI = (1 + sqrt(5))/2 jest wsp√≥≈Çczynnikiem z≈Çotego podzia≈Çu, a
+phi = (1 - sqrt(5))/2 jego odwrotno≈õciƒÖ.
 
-Klasa wymaga pakietu Math_Integer, moøe byÊ uøywana dla duøych liczb
-je∂li zainstalowany jest modu≥ GMP lub BCMATH.
+Klasa wymaga pakietu Math_Integer, mo≈ºe byƒá u≈ºywana dla du≈ºych liczb
+je≈õli zainstalowany jest modu≈Ç GMP lub BCMATH.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -63,7 +63,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
