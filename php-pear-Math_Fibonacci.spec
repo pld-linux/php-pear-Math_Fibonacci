@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_class}_%{_subclass} - Package to calculat and manipulate Fibonacci numbers
-Summary(pl.UTF-8):   %{_class}_%{_subclass} - pakiet do obliczania i manipulowania na liczbach Fibonacciego
+Summary(pl.UTF-8):	%{_class}_%{_subclass} - pakiet do obliczania i manipulowania na liczbach Fibonacciego
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	4
@@ -54,7 +54,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
