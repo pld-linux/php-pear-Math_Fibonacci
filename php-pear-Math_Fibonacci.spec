@@ -12,8 +12,8 @@ Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	924091a540df8d7fe2a7f37996223fa8
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	924091a540df8d7fe2a7f37996223fa8
 URL:		http://pear.php.net/package/Math_Fibonacci/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
