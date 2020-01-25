@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Math
 %define		_subclass	Fibonacci
 %define		_status		stable
